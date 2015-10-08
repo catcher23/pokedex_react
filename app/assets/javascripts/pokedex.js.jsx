@@ -1,6 +1,4 @@
 $(function() {
-  'use strict';
-
 
 var Router = ReactRouter.Router;
 var Route = ReactRouter.Route;
@@ -14,7 +12,7 @@ React.render((
       <Route path="pokemon/:pokemonId" component={PokemonDetail} />
       <Route
         path="pokemon/:pokemonId/toys/:toyId"
-        components={{pokemon: PokemonDetail, toy: ToyDetail}}/>
+        components={{pokemon: PokemonDetail}}/>
     </Route>
   </Router>
 ), rootEl);
