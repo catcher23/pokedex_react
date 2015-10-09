@@ -12,7 +12,7 @@ React.render((
       <Route path="pokemon/:pokemonId" component={PokemonDetail} />
       <Route
         path="pokemon/:pokemonId/toys/:toyId"
-        components={{pokemon: PokemonDetail}}/>
+        components={{pokemon: PokemonDetail, toy: ToyDetail}}/>
     </Route>
   </Router>
 ), rootEl);

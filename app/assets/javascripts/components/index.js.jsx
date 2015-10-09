@@ -3,6 +3,7 @@ window.Index = React.createClass({
     return(
       <div>
         <div className="pokemon-index">
+          <PokemonForm />
           <PokemonsIndex />
         </div>
         {this.props.children}

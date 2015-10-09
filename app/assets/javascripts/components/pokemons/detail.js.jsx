@@ -35,7 +35,8 @@ window.PokemonDetail = React.createClass({
             return <p key={attr}>{attr}: {this.state.pokemon[attr]}</p>;
           }.bind(this))}
         </div>
-      
+          <h2>Toys: </h2>
+          <ToysIndex toys={this.state.pokemon.toys} />
       </div>
     );
   }

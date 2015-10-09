@@ -31,6 +31,7 @@ module Pokedex
         :controller_specs => true,
         :request_specs => true
     end
-
+config.react.addons = true
   end
+
 end
